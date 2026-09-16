@@ -25,6 +25,10 @@ Only `.md` is versioned — it's the actual study content and the only thing wor
 - **Completion certificates** (PDF) — also contain a full name; never converted, kept locally only.
 - **Raw videos** (`.mp4`) — raw media, out of scope for a Markdown documentation repo.
 
+## Known content quirk
+
+The `Module_1`–`Module_4` slide files under `developer-portals-for-platform-engineers/` and `devops-modernization-for-platform-engineers/` are byte-for-byte identical ("Modernization fundamentals for platform engineers"), while each course's main transcript is distinct and consistent with its own title. The original slide decks were already deleted by the time this was noticed, so it can't be confirmed whether the two courses genuinely share that intro module or a conversion mix-up copied one deck into both folders. Documented here instead of "fixed" so it isn't mistaken for an unnoticed bug later.
+
 ## Content origin and use
 
 The content here is derived from third-party courses (mostly from the [Platform Engineering](https://platformengineering.org/) community), transcribed and reorganized for personal study and reference. This repository is **not an official redistribution** of those courses — refer to the original source for the complete, up-to-date material.

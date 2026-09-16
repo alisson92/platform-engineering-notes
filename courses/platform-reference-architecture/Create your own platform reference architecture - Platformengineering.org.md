@@ -2,12 +2,16 @@
 
 ## Page 1
 
+![Page 1](images/page-1.png)
+
 Create your own 
 platform reference 
 architecture
 1
 
 ## Page 2
+
+![Page 2](images/page-2.png)
 
 How to use this template
 2
@@ -19,6 +23,8 @@ blank framework on slides 7 and 8
 Platform Engineering Slack
 
 ## Page 3
+
+![Page 3](images/page-3.png)
 
 Internal Developer Platform on AWS
 Datadog Rootly
@@ -70,6 +76,8 @@ Route 53
 Amazon SQS
 
 ## Page 4
+
+![Page 4](images/page-4.png)
 
 Internal Developer Platform on GCP
 Honeycomb Rootly
@@ -124,6 +132,8 @@ Pubsub
 
 ## Page 5
 
+![Page 5](images/page-5.png)
+
 Internal Developer Platform on Azure
 Prometheus PagerDuty
 OBSERVABILITY 
@@ -176,6 +186,8 @@ Azure Service Bus
 Grafana
 
 ## Page 6
+
+![Page 6](images/page-6.png)
 
 Internal Developer Platform on Multicloud
 OBSERVABILITY 
@@ -239,6 +251,8 @@ Sourcegraph AWS IAM OPA Prisma Cloud SentinelOne
 
 ## Page 7
 
+![Page 7](images/page-7.png)
+
 Internal Developer Platform
 OBSERVABILITY 
 PLANE
@@ -267,6 +281,8 @@ PLANE
 CODE ANALYSIS SECRETS ID MANAGEMENT POLICY CONTROL NETWORK BASED SECURITY SECURITY SUITES
 
 ## Page 8
+
+![Page 8](images/page-8.png)
 
 Internal Developer Platform on Multicloud
 OBSERVABILITY 
@@ -303,6 +319,8 @@ CODE ANALYSIS SECRETS ID MANAGEMENT POLICY CONTROL NETWORK BASED SECURITY SECURI
 
 ## Page 9
 
+![Page 9](images/page-9.png)
+
 Platform tools
 MONITORING & LOGGING 
 Sumo Logic
@@ -323,6 +341,8 @@ Rootly
 PagerDuty
 
 ## Page 10
+
+![Page 10](images/page-10.png)
 
 Platform tools
 IDE/CDE COPILOTS/AGENTS/LLM PORTAL VERSION CONTROL SERVICES/APP 
@@ -361,6 +381,8 @@ Azure DevOps
 
 ## Page 11
 
+![Page 11](images/page-11.png)
+
 Platform tools
 CI REGISTRY PLATFORM 
 ORCHESTRATOR CD
@@ -390,6 +412,8 @@ Atlantis
 Terramate
 
 ## Page 12
+
+![Page 12](images/page-12.png)
 
 Platform tools
 COMPUTE CLUSTER MANAGEMENT DATA NETWORKING 
@@ -443,6 +467,8 @@ Solo.io
 Envoy
 
 ## Page 13
+
+![Page 13](images/page-13.png)
 
 Platform tools
 CODE ANALYSIS SECRETS ID MANAGEMENT POLICY CONTROL 

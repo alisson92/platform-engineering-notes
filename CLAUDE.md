@@ -8,7 +8,7 @@ A personal collection of Platform Engineering/SRE course notes, converted to Mar
 
 ## Language
 
-All files in this repository (docs, filenames where practical, commit messages) are in **English** — this is the project's universal language standard, regardless of any Portuguese preference configured elsewhere for the user.
+**English is the default and mandatory language for this entire project.** Every file in this repository — course content, filenames (where practical), scripts, comments, commit messages, PR titles/descriptions, and any new file type added in the future — must be written in English, regardless of any Portuguese preference configured elsewhere for the user. This standard applies automatically to new files and new sections created going forward; don't ask for confirmation before defaulting to English here.
 
 ## Structure
 
@@ -16,6 +16,11 @@ All files in this repository (docs, filenames where practical, commit messages) 
   - `<Course Name>.md` — the course's text transcript/summary.
   - `Module_N__<title>.md` — a module's slide content (from a source PPTX or PDF).
 - `scripts/convert-to-md.py` — the script used for the initial conversion (txt/pptx/pdf → md). Kept around to reprocess future courses with the same pattern; not run automatically.
+
+## Naming conventions
+
+- **`<course-slug>`:** plain kebab-case, all lowercase, words separated by hyphens, no abbreviations that aren't already standard industry terms (e.g. `k8s`, `ci-cd` are fine; invented shorthand isn't). Example: `kubernetes-fundamentals`, `gitops-with-argocd`.
+- **`Module_N__<title>.md`:** keep the existing format as-is — `Module_` prefix, `N` as the module number (no zero-padding, matches source numbering), double underscore, then `<title>` mirroring the module's original title from the source deck. Don't switch this to kebab-case; it's the established pattern across existing courses and changing it would require renaming every file already committed.
 
 ## Formatting conventions (follow when adding/editing content)
 
@@ -36,3 +41,10 @@ All files in this repository (docs, filenames where practical, commit messages) 
 2. If there's a source `.txt`/`.pptx`/`.pdf`, run `scripts/convert-to-md.py` (adjusting the input paths) or convert manually following the conventions above.
 3. Exclude any certificate or raw video from the commit (`.gitignore` already covers the common patterns; add one-off exceptions if needed).
 4. Check that the generated `.md` has a title (`#`) and a coherent heading hierarchy before committing.
+
+## Commit and PR workflow
+
+- Follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for every commit message, same as the global preference — no restriction on type here (`feat`, `fix`, `docs`, `chore`, `refactor`, etc. all apply as appropriate).
+- Even though this is a docs-only repo, pick the type that matches the actual change, not a default: `docs` for adding/editing course content, `chore` for repo maintenance (`.gitignore`, `scripts/`, this file), `fix` for correcting an error in already-committed content.
+- Commit messages and PR titles/descriptions are in **English**, consistent with the repo's language standard — this overrides the global Portuguese-response preference, which only applies to conversation, not committed content.
+- Keep commits scoped to one course or one concern at a time (e.g. don't mix adding a new course with an unrelated `.gitignore` fix in the same commit) to keep history easy to scan on GitHub.

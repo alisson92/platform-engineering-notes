@@ -1,6 +1,6 @@
 # GitOps for PE Module 5
 
-## Página 1
+## Page 1
 
 GitOps in Enterprise - Scaling and 
 Security
@@ -8,13 +8,13 @@ Security
 GITOPS FOR PLATFORM ENGINEERING
 MODULE 05
 
-## Página 2
+## Page 2
 
 Gitops at Scale - Reference 
 Architecture(s)
 2
 
-## Página 3
+## Page 3
 
 3
 One central instance manages deployments for many 
@@ -36,7 +36,7 @@ credentials (kubeconﬁgs) for all target clusters.
 access to the target clusters' APIs.
 Hub & Spoke
 
-## Página 4
+## Page 4
 
 4
 Instance is co-located with the workloads it manages.
@@ -58,7 +58,7 @@ health.
 instances stay synchronized in their conﬁguration.
 Instance per Cluster
 
-## Página 5
+## Page 5
 
 5
 Hub & Spoke x 
@@ -80,7 +80,7 @@ consumption.
 update two layers (the central Hub and all dedicated local 
 instances) simultaneously.
 
-## Página 6
+## Page 6
 
 6
 The Management Cluster acts as the active driver, directly 
@@ -101,7 +101,7 @@ immediate access to every managed cluster's API endpoint
 Hub & Spoke Agent 
 based - Push
 
-## Página 7
+## Page 7
 
 7
 The Managed Cluster "pulls" its own desired state from the 
@@ -121,11 +121,11 @@ the agent can reach the management hub (Outbound).
 Hub & Spoke Agent 
 based - Pull
 
-## Página 8
+## Page 8
 
 8
 
-## Página 9
+## Page 9
 
 9
 Logical Grouping 
@@ -148,7 +148,7 @@ URLs/contexts depending on the group.
 consumption as core controllers (API, Repo-server) 
 are duplicated for every logical group.
 
-## Página 10
+## Page 10
 
 10
 Sharding
@@ -172,7 +172,7 @@ controllers are duplicated for each shard.
 Kustomization, Chart) must have consistent shard labels 
 or they will be ignored.
 
-## Página 11
+## Page 11
 
 11
 Sharding
@@ -196,13 +196,13 @@ controllers are duplicated for each shard.
 Kustomization, Chart) must have consistent shard labels 
 or they will be ignored.
 
-## Página 12
+## Page 12
 
 GitOps and Security - Secrets 
 Management and Compliance
 12
 
-## Página 13
+## Page 13
 
 Compliance - Kyverno
 13
@@ -236,17 +236,17 @@ it can mutate (ﬁx) or generate (create) missing resources
 Kyverno is the 'GitOps-native Guardrail': If Git deﬁnes what should run, Kyverno ensures 
 only what is allowed can run
 
-## Página 14
+## Page 14
 
 Guardrails that's Scales!
 14
 
-## Página 15
+## Page 15
 
 Guardrails that's Scales! (II)
 15
 
-## Página 16
+## Page 16
 
 16
 Sealed Secrets Operator 
@@ -280,32 +280,32 @@ Cons:
 ● Complexity: More conﬁguration needed (SecretStores, 
 authentication, IAM roles).
 
-## Página 17
+## Page 17
 
 External Secrets Operator (ESO) - Kubara
 17
 
-## Página 18
+## Page 18
 
 External Secrets Operator (ESO) - Kubara
 18
 
-## Página 19
+## Page 19
 
 External Secrets Operator (ESO) - Kubara
 19
 
-## Página 20
+## Page 20
 
 External Secrets Operator (ESO) - Kubara
 20
 
-## Página 21
+## Page 21
 
 Culture Shift
 21
 
-## Página 22
+## Page 22
 
 GitOps in - GitOps out
 22
@@ -334,7 +334,7 @@ embraces open peer reviews and auditability.
 GitOps is 20% Tooling and 80% Discipline. The challenge isn't the technology, but the habit of 
 never touching the cluster manually again
 
-## Página 23
+## Page 23
 
 Everything as Code
 Our vision: A uniﬁed environment where 
@@ -345,17 +345,17 @@ versioned, and automatically enforced
 across clusters.
 23
 
-## Página 24
+## Page 24
 
 Everything as Code (II)
 24
 
-## Página 25
+## Page 25
 
 Everything as Code (III)
 25
 
-## Página 26
+## Page 26
 
 Everything as Code (IV)
 26
@@ -366,7 +366,7 @@ passive users and became active creators. While the start
 was difﬁcult, it ultimately transformed infrastructure into a 
 shared, engaging responsibility.
 
-## Página 27
+## Page 27
 
 27
 Recap: GitOps Architecture, Patterns…
@@ -382,7 +382,7 @@ Secrets for a simple Git-native setup, or switch to External Secrets Operator
 matter how you build it, the focus must stay on providing a great self-service 
 experience. Culture matter.
 
-## Página 28
+## Page 28
 
 Demo
 28

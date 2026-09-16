@@ -10,7 +10,7 @@
 ## Slide 2
 **Navigating the landscape**
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > The access landscape is fragmented because each tool solved a different problem.
 > 
 > But those solutions were never designed to work as a cohesive system.
@@ -25,7 +25,7 @@
 - Ticking time bombs: We saw how standing privileges create permanent vulnerabilities.
 - Legacy systems and approaches to infrastructure access are dragging us down. What does this wide world look like?
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Previously, we saw that legacy access creates both friction and risk at the same time.
 > 
 > The key issue is not just bad tools — it’s a broken model.
@@ -35,7 +35,7 @@
 ## Slide 4
 **Decoding the alphabet soup:Where does it all fit?**
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > This is the first key insight: these tools operate at different layers, not the same one.
 > 
 > Most confusion comes from trying to compare tools that solve different problems.
@@ -50,7 +50,7 @@
 - Controls application access at login time
 - Secures application login… but not infrastructure sessions.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > IAM is where identity typically starts — but also where many teams stop.
 > 
 > It’s designed around applications, not infrastructure.
@@ -65,7 +65,7 @@
 - Replaces traditional VPN-based perimeter models
 - Secures the network edge… but not the resource itself.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > ZTNA improves on VPNs, but it still focuses on connectivity, not control.
 > 
 > It decides whether you can reach something — not what you can do once there.
@@ -80,7 +80,7 @@
 - Records and audits privileged sessions
 - Secures and manages credentials… but still relies on them.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > PAM tries to fix risk by controlling and auditing credentials.
 > 
 > But it still assumes credentials are the right abstraction.
@@ -95,7 +95,7 @@
 - Unifies identity for humans, machines, workloads, and agents
 - Secures the resource itself… without relying on credentials.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > This is the shift: move control to the resource layer itself.
 > 
 > Instead of protecting credentials or networks, we verify identity at access time.
@@ -113,7 +113,7 @@
 - SSO is built for humans only but modern infrastructure also requires identity for services, automation, and AI agents
 - SSO might successfully verify who you are at login… but most modern security incidents don’t happen because someone bypassed login.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > SSO gives a false sense of security because it solves only the first step.
 > 
 > Most real-world incidents happen after authentication, not before.
@@ -130,7 +130,7 @@
 - Just-in-time: Certificates are issued on demand by the platform as needed, and expire automatically.
 - When every session is identity-bound, time-bound, and policy-enforced by default, Access becomes automatic, scoped, and expiring, reducing your MTTA (our key metric!) and blast radius at the same time.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > The key idea here is making access ephemeral and identity-bound.
 > 
 > Instead of granting access once, we continuously verify it.
@@ -144,7 +144,7 @@
 - They shouldn't share static credentials either.
 - Workloads require dynamic, verifiable cryptographic identities (e.g., SPIFFE or Secure Production Identity Framework for Everyone).
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Machines are now the dominant actors in infrastructure systems.
 > 
 > Yet most access models were designed only for humans.
@@ -160,7 +160,7 @@
 - Machine identity model:
 - How does embracing machine identity work?
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > This comparison shows how deeply flawed the legacy model is for automation.
 > 
 > Long-lived tokens are essentially permanent access keys.
@@ -170,7 +170,7 @@
 ## Slide 14
 **What is the alternative?**
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > At this point, we’ve identified gaps across all existing approaches.
 > 
 > The question becomes: what would a unified model look like?
@@ -185,7 +185,7 @@
 - Access is defined and enforced through identity, not credentials or network boundaries
 - Acts as the foundation for consistent access across cloud, Kubernetes, and on-prem
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > The key idea is consolidation — one system instead of many disconnected ones.
 > 
 > Identity becomes the single source of truth for access decisions.
@@ -201,7 +201,7 @@
 - No more credential sprawl: Identity dynamically provisions short-lived access instead of distributing secrets
 - The unified identity layer becomes a control plane of your Internal Developer Platform, embedding secure-by-design access into platform engineering so every interaction is governed by default.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > This is where platform engineering becomes the enabler.
 > 
 > The platform translates intent into enforcement across systems.
@@ -216,7 +216,7 @@
 - Different workflows per system → One consistent access model
 - Human vs machine access → One unified identity system
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > This slide shows the practical impact of that shift.
 > 
 > Complexity is removed not by adding tools, but by abstracting them.
@@ -240,7 +240,7 @@
 - Unify IAM, network, privilege, and resource access behind a single access plane.
 - Design golden paths so secure access is automatic and seamless for humans and machines.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > The key takeaway is that access is not a single-tool problem.
 > 
 > It’s a system design problem that needs a platform-level solution.

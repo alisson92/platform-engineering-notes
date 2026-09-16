@@ -1,6 +1,6 @@
 # GitOps for PE Module 4
 
-## Página 1
+## Page 1
 
 GitOps Tooling 101 - Argo CD, Flux CD 
 and Sveltos Addon Controller
@@ -8,12 +8,12 @@ and Sveltos Addon Controller
 GITOPS FOR PLATFORM ENGINEERING
 MODULE 04
 
-## Página 2
+## Page 2
 
 Helm vs Kustomize
 2
 
-## Página 3
+## Page 3
 
 3
 Helm (Template-driven): Think of it as a Programming 
@@ -31,7 +31,7 @@ Outcome: Kustomize takes
 the base and overwrites 
 the replicas to 3 for prod.
 
-## Página 4
+## Page 4
 
 4
 Feature Helm (since 2015, v4, ⭐
@@ -44,7 +44,7 @@ Integration Requires Helm CLI. Built into kubectl (-k)
 Best For Third-party apps (Postgres, Redis). Internal microservices.
 Helm vs Kustomize (II)
 
-## Página 5
+## Page 5
 
 5
 Helm Charts - The "Wrapper Chart" Pattern
@@ -61,7 +61,7 @@ your company-speciﬁc security policies and namespaces are included.
 ● GitOps-Friendly: Argo CD only has to manage one "App," 
 which includes both the tool and its conﬁguration.
 
-## Página 6
+## Page 6
 
 6
 Helm Charts - The "Wrapper Chart" Pattern II
@@ -71,7 +71,7 @@ for the engine, but use your own
 templates to add the 'missing pieces' 
 like ClusterIssuer or Namespace.
 
-## Página 7
+## Page 7
 
 7
 Helm Chart x Kustomize
@@ -87,13 +87,13 @@ can still update the Chart easily.
 ● Fix Hardcoded Values: If a developer forgot to make a ﬁeld conﬁgurable, Kustomize can "force" the change 
 via a JSON patch.
 
-## Página 8
+## Page 8
 
 Building a GitOps Service 
 Catalog with Helm
 8
 
-## Página 9
+## Page 9
 
 9
 Let's build a Service Catalog for your Platform
@@ -112,7 +112,7 @@ custom values for every tool for every cluster.
 This setup allows GitOps at scale, managing a ﬂexible 
 cluster ﬂeet and covering day-2 operations.
 
-## Página 10
+## Page 10
 
 10
 Let's build a Service Catalog for your Platform
@@ -130,13 +130,13 @@ additional services based on their labels.
 You can manage 1,000+ clusters with one tool and one interface — over UI or API.
 But when that tool or its catalog backend becomes a bottleneck, the state store matters at real scale.
 
-## Página 11
+## Page 11
 
 Overview: Argo CD, Flux CD 
 and Sveltos Addon Controller
 11
 
-## Página 12
+## Page 12
 
 12
 Argo CD
@@ -180,7 +180,7 @@ Best for managing large-scale cluster
 ﬂeets with an agent-based architecture 
 and native multi-tenancy support.
 
-## Página 13
+## Page 13
 
 13
 Dashboard 
@@ -203,7 +203,7 @@ Event Driven: yes, but just with Argo Events
 Multi-Tenancy: centralized RBAC, SSO/OIDC, Projects
 Integration:  EKS Capability for Argo CD, 2025
 
-## Página 14
+## Page 14
 
 14
 Argo CD - Bootstrapping - YAML
@@ -234,7 +234,7 @@ specify one Argo CD app that consists only
 of other apps.
 Basic Installation or Quick Start
 
-## Página 15
+## Page 15
 
 15
 Argo CD - Bootstrapping - Helm
@@ -267,7 +267,7 @@ kubectl port-forward svc/argocd-server -n
 argocd 8080:443 
 Basic Installation or Quick Start
 
-## Página 16
+## Page 16
 
 16
 Dashboard 
@@ -289,7 +289,7 @@ Event Driven: yes, but minimal for trigger, notiﬁcations
 Multi-Tenancy: native Kubernetes RBAC, Namespaces
 Integration:  Azure AKS Extension, since 2022
 
-## Página 17
+## Page 17
 
 17
 Flux CD - Bootstrapping CLI
@@ -309,7 +309,7 @@ controllers on Kubernetes cluster(s) and conﬁgures
 the controllers to sync the cluster(s) state from a Git 
 repository
 
-## Página 18
+## Page 18
 
 18
 Flux CD - Bootstrapping - Flux Operator
@@ -344,7 +344,7 @@ anifests"
     - notification-controller 
 …
 
-## Página 19
+## Page 19
 
 19
 Sveltos
@@ -365,7 +365,7 @@ Event Driven: yes, in built
 Multi-Tenancy: delegated, RoleRequest, Tenants
 Integration: k0RDENT policy Driven Cluster Management
 
-## Página 20
+## Page 20
 
 20
 Sveltos - Bootstrapping YAML
@@ -387,7 +387,7 @@ cluster’s API server. Sveltos leaves no
 footprint on managed clusters in this mode.
 Mode 1: Local Agent Mode
 
-## Página 21
+## Page 21
 
 21
 Sveltos - Bootstrapping Helm
@@ -402,7 +402,7 @@ agent.managementCluster=true
 helm list -n projectsveltos 
 Mode 1: Local Agent Mode Mode 2: Centralised Agent Mode
 
-## Página 22
+## Page 22
 
 22
 Sveltos - Bootstrapping: The Kubara Way
@@ -412,7 +412,7 @@ to the catalog
 3. Lets Argo CD doing the magic, deploying 
 and manage Sveltos
 
-## Página 23
+## Page 23
 
 23
 Feature Argo CD Flux CD Sveltos
@@ -442,7 +442,7 @@ Platform Engineers
 ("Invisible Engine") Massive Fleet & Add-on Management
 General Info and Community Adoption
 
-## Página 24
+## Page 24
 
 24
 Technical Architecture & Modern Features
@@ -464,7 +464,7 @@ Integrations EKS Capability (2025) Azure AKS Extension (2022) kORDENT, Cluster-A
 Progressive 
 Del. Using Argo Rollouts Using Flagger –
 
-## Página 25
+## Page 25
 
 25
 If you need a Rich Ecosystem: Choose Argo CD (includes Workﬂows, Events, Rollouts, and Image Updater).
@@ -481,7 +481,7 @@ If you run just 1 or 2 Cluster: Flux CD or Argo CD
 Which Tool to choose…
 These are only rough indications. As always, it's a depends-on answer!
 
-## Página 26
+## Page 26
 
 26
 Who says you need…
@@ -496,7 +496,7 @@ Use Argo CD to roll out Flux CD on dedicated
 edge clusters, and Flux to manage these 
 resources efﬁciently.
 
-## Página 27
+## Page 27
 
 27
 Recap: GitOps Tooling 101…
@@ -508,7 +508,7 @@ it over a lot of repositories!
 ❏ Be aware of which GitOps Tools exists and about their capabilities - 
 no need to focus on one tool, you can combine strengths of the tools
 
-## Página 28
+## Page 28
 
 Demo
 28

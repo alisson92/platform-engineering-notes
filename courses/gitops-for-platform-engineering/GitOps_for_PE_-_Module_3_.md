@@ -1,6 +1,6 @@
 # GitOps for PE Module 3
 
-## Página 1
+## Page 1
 
 GitOps Architecture, Patterns 
 and Anti-Patterns
@@ -8,12 +8,12 @@ and Anti-Patterns
 GITOPS FOR PLATFORM ENGINEERING
 MODULE 03
 
-## Página 2
+## Page 2
 
 GitOps Architecture
 2
 
-## Página 3
+## Page 3
 
 Remember this.
 Declarative Versioned and 
@@ -26,18 +26,18 @@ Reconciled
 GitOps Architecture
 Feedback Loop
 
-## Página 4
+## Page 4
 
 Internal vs External Reconciler
 4
 Workload Clusters
 
-## Página 5
+## Page 5
 
 Internal vs External Reconciler
 5
 
-## Página 6
+## Page 6
 
 Declarative
 6
@@ -52,7 +52,7 @@ Imperative is like giving a driver turn-by-turn directions;
 Declarative is giving the driver an address and letting 
 them ﬁnd the best route
 
-## Página 7
+## Page 7
 
 7
 Versioned and Immutable
@@ -69,7 +69,7 @@ Immutable)
 Tags are for humans (versioned); Hashes are for machines (immutable); Never use 
 'latest' in production.
 
-## Página 8
+## Page 8
 
 8
 In a Pull-based system, an agent inside the cluster 
@@ -94,7 +94,7 @@ Push-based is 'Fire and Forget' from the outside; Pull-based is 'Watch and Sync'
 from the inside.
 Pull-Based
 
-## Página 9
+## Page 9
 
 9
 Continuously Reconciled means the system 
@@ -113,16 +113,16 @@ webapp namespace.
 was changed via kubectl, Argo CD "reconciles" it by 
 re-applying the Git state.
 
-## Página 10
+## Page 10
 
-*(sem texto extraível nesta página)*
+*(no extractable text on this page)*
 
-## Página 11
+## Page 11
 
 Progressive Delivery
 11
 
-## Página 12
+## Page 12
 
 Rolling Update 
 Progressive Delivery
@@ -165,7 +165,7 @@ testing on real users.
 While "Continuous Delivery" focuses on moving code from the developer to production as fast as 
 possible, Progressive Delivery focuses on how that code is exposed to users to minimize risk
 
-## Página 13
+## Page 13
 
 Rolling Update 
 Progressive Delivery
@@ -208,13 +208,13 @@ testing on real users.
 While "Continuous Delivery" focuses on moving code from the developer to production as fast as 
 possible, Progressive Delivery focuses on how that code is exposed to users to minimize risk
 
-## Página 14
+## Page 14
 
 Trunk-Based vs 
 Branch-Based Development
 14
 
-## Página 15
+## Page 15
 
 Trunk-Based vs Branch-Based Development
 15
@@ -246,7 +246,7 @@ a "fail forward" mentality.
  
  Trunk-based is about Continuous Deployment, while Branch-based is about Release Control
 
-## Página 16
+## Page 16
 
 Promotions between Stages: Trunk-Based
 16
@@ -261,7 +261,7 @@ deployed to production only when the conﬁguration is updated
 In Trunk-Based GitOps, we promote 'Artifact 
 Versions,' not 'Git Branches.
 
-## Página 17
+## Page 17
 
 Promotions between Stages: Branch-Based
 17
@@ -277,7 +277,7 @@ This architecture is categorized as a GitOps
 anti-pattern and is not recommended for 
 production-scale environments.
 
-## Página 18
+## Page 18
 
 Before Kargo: You write a custom bash 
 script in GitHub Actions to sed  an image 
@@ -299,7 +299,7 @@ Actions or Jenkins to "push" changes; Kargo manages the lifecycle natively withi
 Kubernetes.
 Promotions between Stages: Kargo as Bridge
 
-## Página 19
+## Page 19
 
 The PR Generator is a feature of the Argo CD ApplicationSet controller.
 Normally, Argo CD needs a folder in Git to create an application. The PR Generator 
@@ -318,22 +318,22 @@ preview-pr-123) and deploys the app there.
  19
 Argo CD: Pull-Request Generator (I)
 
-## Página 20
+## Page 20
 
 20
 Argo CD: Pull-Request Generator (II)
 
-## Página 21
+## Page 21
 
 21
 Argo CD: Pull-Request Generator (III)
 
-## Página 22
+## Page 22
 
 Repository Strategies
 22
 
-## Página 23
+## Page 23
 
 Repository Strategies: Mono vs Multi Repo(s)
 23
@@ -361,7 +361,7 @@ code/templates easily and maintain a global overview.
 Mono Repo prioritizes shared consistency and visibility; Multi Repo prioritizes team autonomy 
 and security boundaries.
 
-## Página 24
+## Page 24
 
 Folder per Environment (I)
 24
@@ -386,7 +386,7 @@ Note: staging and prod should inherit from the same
 variants/stable folder to ensure they remain 
 identical in conﬁguration.
 
-## Página 25
+## Page 25
 
 Folder per Environment (II)
 25
@@ -404,7 +404,7 @@ Note: This structure allows you to use Kustomize
 Components to apply "EU-only" settings (like speciﬁc 
 database endpoints) to all folders under the /eu tree.
 
-## Página 26
+## Page 26
 
 Folder per Environment (III)
 26
@@ -413,7 +413,7 @@ Stage-only Low Start-ups, single apps.
 Stage + Region Medium SaaS companies with global users.
 Stage + Variant High Specialized tech (Edge computing, AI, Finance).
 
-## Página 27
+## Page 27
 
 Folder per Environment (IV)
 27
@@ -424,12 +424,12 @@ Multi-Cloud Setup Cloud Providers envs/aws-eu, envs/azure-us
 Speciﬁc Hardware Variants envs/gpu-cluster, envs/cpu-cluster
 Global Scaling Regional Matrix envs/prod-eu, envs/prod-us
 
-## Página 28
+## Page 28
 
 State Store
 28
 
-## Página 29
+## Page 29
 
 State Store: Git, OCI or  
 ConﬁgHub (I)
@@ -447,7 +447,7 @@ Using OCI as a State Store is becoming the gold standard for enterprises
 because it treats YAML exactly like code—versioned, packaged, and 
 signed
 
-## Página 30
+## Page 30
 
 30
 Git
@@ -492,7 +492,7 @@ Every manifest is stored in its ﬁnal,
 making it instantly readable and 
 validatable.
 
-## Página 31
+## Page 31
 
 31
 Recap: GitOps Architecture, Patterns…
@@ -508,7 +508,7 @@ GitOps is based on the four principles.
 But if you want to get the most out of it, you also need to understand the 
 other building block!
 
-## Página 32
+## Page 32
 
 Demo
 32

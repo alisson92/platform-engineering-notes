@@ -12,7 +12,7 @@
 
 - + platform engineering
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Clarify: Zero Trust isn’t new—but applying it to infrastructure is still immature in most orgs.
 > 
 > Tie to platform engineering: platforms are now the enforcement layer for Zero Trust.
@@ -30,7 +30,7 @@
 - Authorisation
 - Audit
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Anchor this: these are non-negotiables, not best practices.
 > 
 > Identity: stress cryptographic identity → no more “network = trust.”
@@ -61,7 +61,7 @@
 - Repeat
 - (This applies wherever it’s humans or machines asking for access)
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Walk through the flow like a story: request → validation → access → automatic removal.
 > 
 > Emphasize: access is temporary by design, not manually revoked.
@@ -75,7 +75,7 @@
 
 - Let devs initiate access from the tools they already use, but ensure that approval and enforcement happens in a controlled, identity-centric system governed by policy and short-lived credentials.Result: Prevents accidental 'emoji approvals' and maintains audit integrity.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > This is a subtle but important point: convenience vs control.
 > 
 > Developers can initiate in Slack—but decisions shouldn’t happen there.
@@ -98,7 +98,7 @@
 - Secure terminal
 - opens in browser.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > This is the “golden path” experience.
 > 
 > Frame it as: security becomes invisible when done right.
@@ -119,7 +119,7 @@
 - Changes are committed to Git and validated through CI/CD, just like any other infrastructure change.
 - Once approved and deployed, the platform enforces time-bound, policy-driven access automatically at the resource level.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Make the connection: identity should follow the same lifecycle as infrastructure.
 > 
 > Policies are not configs—they are code artifacts.
@@ -144,7 +144,7 @@
 - Legacy Log: IP 10.0.0.5 executed a command ❌To…
 - Modern Log: Jane Doe (prod-db-admin, 1h TTL), verified via Okta on trusted Mac, ran DROP TABLE ✅
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > This is where Zero Trust proves its value.
 > 
 > Contrast old vs new:
@@ -165,7 +165,7 @@
 - How could you embed access requests directly into your current developer portal?
 - ?
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Pause intentionally—this is where the audience internalizes.
 > 
 > Encourage them to think practically:
@@ -185,7 +185,7 @@
 - Move from fragmented access layers into one unified, policy-driven identity layer.
 - Turn secure access into a product experience… fast, observable, and measurable
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Reinforce the big idea: this is not a tooling problem—it’s an operating model shift.
 > 
 > Highlight the transformation:
@@ -214,7 +214,7 @@
 - [Audit Destination ]
 - If you can’t draw this workflow, you don’t control your access model.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > This is the most practical slide—slow down here.
 > 
 > Encourage them to actually map this after the session.
@@ -236,7 +236,7 @@
 - Remember to measure (MTTA, eNPS, velocity) and establish your baseline. Use the improvement data to prove your value and expand your journey!
 - Remember! Modern infrastructure identity isn’t a security upgrade, it’s a platform evolution. Start small, replace standing trust with expiring identity, measure the impact, and turn secure access into a core capability of your IDP
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Reduce overwhelm: you don’t need to transform everything at once.
 > 
 > Suggest a starting point: replace one risky pattern (VPN, long-lived creds).
@@ -264,7 +264,7 @@
 - The unified access plane becomes the control tower of the IDP
 - Zero Trust succeeds when secure access becomes the golden path
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Don’t read the list—summarize themes:
 > 
 > Identity is the foundation of modern platforms

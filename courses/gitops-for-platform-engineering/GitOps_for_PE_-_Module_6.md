@@ -1,13 +1,13 @@
 # GitOps for PE Module 6
 
-## Página 1
+## Page 1
 
 Outlook, Trends and AI!
  
 GITOPS FOR PLATFORM ENGINEERING
 MODULE 06
 
-## Página 2
+## Page 2
 
 Outlook, Trends and Interview with the 
 GitOps founder Alexis Richardson
@@ -15,12 +15,12 @@ GitOps founder Alexis Richardson
 GITOPS FOR PLATFORM ENGINEERING
 MODULE 06
 
-## Página 3
+## Page 3
 
 Sprawl of Conﬁgs 
 3
 
-## Página 4
+## Page 4
 
 Sprawl of Conﬁgs
 4
@@ -33,7 +33,7 @@ global conﬁg)
 Three layers can mutate values — and the ﬁnal output 
 only appears inside the GitOps engine.
 
-## Página 5
+## Page 5
 
 Sprawl of Conﬁgs (II)
 The GitOps engine executes code.
@@ -47,7 +47,7 @@ Keep the workﬂow — add a step that produces the ﬁnal,
 rendered YAML.
 5
 
-## Página 6
+## Page 6
 
 6
 Git as State Store is not the Source of Truth!
@@ -64,14 +64,14 @@ Then you can also:
 Switching from Git as State Store means we are speaking about Gitless 
 GitOps!
 
-## Página 7
+## Page 7
 
 The Future of GitOps in 
 combination with AI and Platform 
 Engineering
 7
 
-## Página 8
+## Page 8
 
 8
 AI and GitOps
@@ -92,7 +92,7 @@ an API.
 ● API: Data visibility enforced by user/service 
 tokens
 
-## Página 9
+## Page 9
 
 9
 AI and GitOps (II)
@@ -110,7 +110,7 @@ Example:
 User: “Why WHITE application?”
 AI Answer: “Because not BLUE.”
 
-## Página 10
+## Page 10
 
 10
 Recap: GitOps for Platform Engineering
@@ -129,7 +129,7 @@ a lot of time on manifests and how to store them in a state storelike Git, OCI, 
 — and why, even though Git is in “GitOps”, Git alone is not always enough. -> 
 Gitless GitOps -> YouTube -> Stefan Prodan (FluxCon)!! 🔥
 
-## Página 11
+## Page 11
 
 11
 Recap: GitOps for Platform Engineering
@@ -147,11 +147,11 @@ together.
 I hope you enjoyed this Course! If you have some Feedback, just drop me a direct Message on 
 LinkedIn!!
 
-## Página 12
+## Page 12
 
 12
 
-## Página 13
+## Page 13
 
 The Interview
 13

@@ -16,9 +16,9 @@
 
 ---
 
-** Obs.: Por que não começar a pensar como um produto essa ideia de incluir
-o Camunda Platform + um produto de Observability?
-Seria meio que tratando isso como um "standard", aliás, a Observability
-é algo que deve ser default em qualquer situação para qualquer que seja o produto.
+** Note: Why not start thinking, as a product, about including
+the Camunda Platform + an Observability product?
+It would be something like treating this as a "standard" — after all, Observability
+is something that should be the default in any situation, regardless of the product.
 
 ---

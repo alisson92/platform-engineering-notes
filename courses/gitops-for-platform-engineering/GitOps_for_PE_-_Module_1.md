@@ -1,12 +1,12 @@
 # GitOps for PE Module 1
 
-## Página 1
+## Page 1
 
 Introduction and Motivation 
 GITOPS FOR PLATFORM ENGINEERING
 MODULE 01
 
-## Página 2
+## Page 2
 
 Artem Lajko
 ● Head of Platform Engineering at iits
@@ -16,7 +16,7 @@ Artem Lajko
 2
 Book: Implementing GitOps with Kubernetes
 
-## Página 3
+## Page 3
 
 3
 What is this course about?
@@ -34,12 +34,12 @@ is a Sprawl of Configs
 04 05 06
 Introduction and Motivation
 
-## Página 4
+## Page 4
 
 Why GitOps
 4
 
-## Página 5
+## Page 5
 
 Why GitOps?
 1000 Reasons + 1 
@@ -52,37 +52,37 @@ Why GitOps?
 5
 GitOps is a contract between Agents and Humans!
 
-## Página 6
+## Page 6
 
 6
 Why GitOps? Let’s look at the numbers (I)
 https://octopus.com/publications/state-of-gitops-report
 https://platformengineering.org/reports/state-of-platform-engineering-vol-3
 
-## Página 7
+## Page 7
 
 7iits-consulting: Migration from VMS and Rancher (RKE) to GitOps with Argo CD (KumoOps Stack)
 Why GitOps? Let’s look at the numbers (II)
 
-## Página 8
+## Page 8
 
 The Wild West Era - Before 
 DevOps and GitOps 
 8
 
-## Página 9
+## Page 9
 
 The Wild West Era — Before DevOps and 
 GitOps (I)
 9
 
-## Página 10
+## Page 10
 
 10
 The Wild West Era — Before DevOps and 
 GitOps (II)
 
-## Página 11
+## Page 11
 
 11
 2000s - 2010s
@@ -90,7 +90,7 @@ Enterprise HA Setup
 The Wild West Era — Before DevOps and 
 GitOps (III)
 
-## Página 12
+## Page 12
 
 12
 2000s - 2010s
@@ -101,30 +101,30 @@ Doesn’t scale!
 The Wild West Era — Before DevOps and 
 GitOps (IV)
 
-## Página 13
+## Page 13
 
 The Birth of Infrastructure as 
 Code
 13
 
-## Página 14
+## Page 14
 
 The Birth of Infrastructure as Code (IaC) - I
 14
 
-## Página 15
+## Page 15
 
 15
 Everything becomes declarative! 
 The Birth of Infrastructure as Code (IaC) - II
 
-## Página 16
+## Page 16
 
 New Tooling…Similar Challenge… 
 Still Running on My Machine
 16
 
-## Página 17
+## Page 17
 
 Conﬁg and Ops Still Run on My Machine
 We now use “X as Code” (let’s call it conﬁg), 
@@ -139,7 +139,7 @@ Conﬁg and ops still run on the local machine.
 17
 Local Ops!
 
-## Página 18
+## Page 18
 
 Ops still running on my Machine!
 We have now split conﬁg and ops. Conﬁg lives 
@@ -154,7 +154,7 @@ on the VM.
 18
 Distributed Ops!
 
-## Página 19
+## Page 19
 
 Pipeline Ops: Code still running on my Machine!
 We have now split conﬁg and ops. Conﬁg lives 
@@ -169,7 +169,7 @@ the VM.
 19
 Pipeline Ops!
 
-## Página 20
+## Page 20
 
 Pipeline Ops: Code still running on my Machine!
 We have now split conﬁg and ops. Conﬁg lives 
@@ -185,7 +185,7 @@ the VM.
 Event? 1 Day, 1 Week, 1 Month…? 
 Drift…
 
-## Página 21
+## Page 21
 
 Agent Ops: Code still running on my Machine!
 We have now split conﬁg and ops. Conﬁg lives 
@@ -200,7 +200,7 @@ target environment to match the actual state.
 Execute Ops through Git as a declarative 
 contract!
 
-## Página 22
+## Page 22
 
 You Have a Contract with the Agent
 Agent: I fulﬁll the contract by continuously 
@@ -212,12 +212,12 @@ single source of truth for the contract.
 The user has a contract with the agent. The agent promises to keep the 
 target environment in sync.
 
-## Página 23
+## Page 23
 
 Why Do We Want GitOps?
 23
 
-## Página 24
+## Page 24
 
 24
 Why Do We Want GitOps? 
@@ -230,7 +230,7 @@ language
 ❏ Security-friendly: strong audit trail
 ❏ AI-ready: it can explain what happened, why, when, and how
 
-## Página 25
+## Page 25
 
 Recap and Learning Objectives
 - What is GitOps

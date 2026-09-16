@@ -7,7 +7,7 @@
 - MODULE
 - 01
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > This module is about reframing how we think about access — not as configuration, but as identity.
 > 
 > Infrastructure identity is emerging as a foundational layer in platform engineering, not just a security concern.
@@ -19,7 +19,7 @@
 
 - Who we are?
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > My name is Michele Mancioppi, and I have spent most of my career monitoring distributed systems and building observability tooling.
 
 ## Slide 3
@@ -30,7 +30,7 @@
 - How platform engineering can drive Infrastructure Identity as a new paradigm, shifting security toward a model where every entity from hardware to AI is authenticated and authorized based on real-time needs.
 - How Infrastructure Identity intersects with platform engineering
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Infrastructure identity sits right at the intersection of developer experience and security.
 > 
 > The shift we’re talking about is from static, predefined access to dynamic, identity-driven access.
@@ -46,7 +46,7 @@
 - Use platform engineering to eliminate static credentials by applying cryptographic identities, zero-trust principles, and short-lived, just-in-time access at scale.
 - A single data breach now costs organizations on average more than $4.4 million globally. A secret anywhere in the environment is a vulnerability.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > The key takeaway is that secrets and credentials are the root of most infrastructure risk.
 > 
 > This isn’t just about improving security — it’s about enabling safer automation at scale.
@@ -56,7 +56,7 @@
 ## Slide 5
 **Introduction to Infrastructure Identity**
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > So, time to dive in. What is this “Observability” that we hear so much about?
 
 ## Slide 6
@@ -65,7 +65,7 @@
 - but not our access.
 - Compute evolved from static servers to dynamic, autoscaling clusters.Access controls remain stuck on 1990s primitives: passwords and static SSH keys.Manual provisioning cannot keep pace with automated workflows.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > We’ve modernized compute, but access models are still stuck in the past.
 > 
 > This mismatch is one of the biggest hidden sources of friction in modern engineering.
@@ -81,7 +81,7 @@
 - While "It works on my machine, but I can't connect to staging.” hits everyone
 - Engineers are juggling too many tools just to do their jobs. The cognitive load & friction grow increasingly, with parallel growth in security risks from bad actors.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Engineers don’t think in terms of “access systems” — they just feel the friction.
 > 
 > Every additional tool or access path increases both cognitive load and risk.
@@ -95,7 +95,7 @@
 - Security mandates without thought around usability results in bypassed controls.
 - As friction increase,  shared team keys and backdoors grow more and more frequently.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > When systems are hard to use, people don’t follow them — they work around them.
 > 
 > Shadow IT is not a failure of people, it’s a failure of system design.
@@ -111,7 +111,7 @@
 - 95% of breached assets are servers
 - “Infrastructure identity is a modern, Zero Trust security approach that assigns, manages, and cryptographically verifies unique identities for every entity, including humans, machines, software, and AI workloads, within a computing environment.”
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Identity is becoming the primary control surface for modern infrastructure.
 > 
 > This extends beyond users — everything becomes an identity: services, workloads, AI.
@@ -131,7 +131,7 @@
 - Short-lived cryptographic credentials
 - Strong authentication + authorization policies
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Traditional access is location-based — identity-based access is context-aware.
 > 
 > This is a fundamental shift from perimeter security to zero trust.
@@ -147,7 +147,7 @@
 - Every static secret in your environment is a live vulnerability that rotating or encrypting only delays.
 - It’s a platform engineers’ job to ensure Infrastructure Identity is a first-class part of the platform.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Infrastructure identity brings trust deeper into the system — not just at login.
 > 
 > It closes the gap between identity providers and actual infrastructure resources.
@@ -162,7 +162,7 @@
 - If a secret exists, it can be leaked, stolen, or misconfigured.
 - The mere existence of a secret is a risk.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > The biggest risk isn’t active attackers — it’s dormant credentials waiting to be abused.
 > 
 > Long-lived access creates invisible risk that accumulates over time.
@@ -172,7 +172,7 @@
 ## Slide 13
 **Why should platform engineers own this?**
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Platform engineers define how developers interact with infrastructure.
 > 
 > That means they implicitly define how access works across the organization.
@@ -188,7 +188,7 @@
 - Identity now underpins access to infrastructure, workloads, and automation. It directly shapes developer experience, security, and self-service. Security defines policy, but platform operationalizes identity as part of the internal developer platform.
 - Infrastructure identify is a platform engineers domain
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Instead of shifting security responsibility to developers, we embed it into the platform.
 > 
 > This is about making the secure path the default path.
@@ -213,7 +213,7 @@
 - Key driver of a secure-by-design system!
 - 7
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Identity is one of the biggest contributors to cognitive load in engineering teams.
 > 
 > As automation and AI increase, identity complexity becomes unavoidable.
@@ -229,7 +229,7 @@
 - Evolve toward infrastructure identity continuously modernizing how humans, workloads, and automation authenticate.
 - Embrace security by design.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > The traditional model fails because it relies on static, manual controls.
 > 
 > Infrastructure identity enables continuous, dynamic access instead.
@@ -258,7 +258,7 @@
 - Quantifying the impact: mean time to access (MTTA) and its effect on velocity.
 - What we will cover in Module 2
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > We’ve established the problem: fragmented access, secrets, and risk.
 > 
 > We’ve introduced the solution: identity as the foundation of access.

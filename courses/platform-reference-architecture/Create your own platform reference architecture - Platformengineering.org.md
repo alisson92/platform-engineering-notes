@@ -1,13 +1,13 @@
 # Create your own platform reference architecture Platformengineering.org
 
-## Página 1
+## Page 1
 
 Create your own 
 platform reference 
 architecture
 1
 
-## Página 2
+## Page 2
 
 How to use this template
 2
@@ -18,7 +18,7 @@ blank framework on slides 7 and 8
 ◆ Share it with the community on 
 Platform Engineering Slack
 
-## Página 3
+## Page 3
 
 Internal Developer Platform on AWS
 Datadog Rootly
@@ -69,7 +69,7 @@ RDS MySQL
 Route 53
 Amazon SQS
 
-## Página 4
+## Page 4
 
 Internal Developer Platform on GCP
 Honeycomb Rootly
@@ -122,7 +122,7 @@ Google Cloud SQL
 Cloud DNS
 Pubsub
 
-## Página 5
+## Page 5
 
 Internal Developer Platform on Azure
 Prometheus PagerDuty
@@ -175,7 +175,7 @@ Azure DNS
 Azure Service Bus
 Grafana
 
-## Página 6
+## Page 6
 
 Internal Developer Platform on Multicloud
 OBSERVABILITY 
@@ -237,7 +237,7 @@ KubecostAmazon Cloud
 Watch
 Sourcegraph AWS IAM OPA Prisma Cloud SentinelOne
 
-## Página 7
+## Page 7
 
 Internal Developer Platform
 OBSERVABILITY 
@@ -266,7 +266,7 @@ SECURITY
 PLANE
 CODE ANALYSIS SECRETS ID MANAGEMENT POLICY CONTROL NETWORK BASED SECURITY SECURITY SUITES
 
-## Página 8
+## Page 8
 
 Internal Developer Platform on Multicloud
 OBSERVABILITY 
@@ -301,7 +301,7 @@ COPILOTS/AGENTS/LLM
 PORTAL
 CODE ANALYSIS SECRETS ID MANAGEMENT POLICY CONTROL NETWORK BASED SECURITY SECURITY SUITES
 
-## Página 9
+## Page 9
 
 Platform tools
 MONITORING & LOGGING 
@@ -322,7 +322,7 @@ Cloudzero
 Rootly
 PagerDuty
 
-## Página 10
+## Page 10
 
 Platform tools
 IDE/CDE COPILOTS/AGENTS/LLM PORTAL VERSION CONTROL SERVICES/APP 
@@ -359,7 +359,7 @@ Circle CI
 Travis CI
 Azure DevOps
 
-## Página 11
+## Page 11
 
 Platform tools
 CI REGISTRY PLATFORM 
@@ -389,7 +389,7 @@ Codefresh
 Atlantis
 Terramate
 
-## Página 12
+## Page 12
 
 Platform tools
 COMPUTE CLUSTER MANAGEMENT DATA NETWORKING 
@@ -442,7 +442,7 @@ MySQL
 Solo.io
 Envoy
 
-## Página 13
+## Page 13
 
 Platform tools
 CODE ANALYSIS SECRETS ID MANAGEMENT POLICY CONTROL 

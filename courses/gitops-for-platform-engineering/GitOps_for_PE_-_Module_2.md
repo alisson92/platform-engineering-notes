@@ -1,6 +1,6 @@
 # GitOps for PE Module 2
 
-## Página 1
+## Page 1
 
 GitOps Fundamentals and 
 Core Principles
@@ -8,12 +8,12 @@ Core Principles
 GITOPS FOR PLATFORM ENGINEERING
 MODULE 02
 
-## Página 2
+## Page 2
 
 History and Origin
 2
 
-## Página 3
+## Page 3
 
 History and Origin
 1. Desired state: deﬁned in cookbooks (recipes)
@@ -29,7 +29,7 @@ Configuration Management (CM)
 Chef, a conﬁguration management tool, was announced in 2009 (formerly Opscode)
 3
 
-## Página 4
+## Page 4
 
 History and Origin - Today
 In 2017, GitOps was deﬁned based on 
@@ -42,12 +42,12 @@ Alexis Richardson introduced the term GitOps in 2017 while he was at Weaveworks.
 Today, he is the CEO of ConﬁgHub.
 4
 
-## Página 5
+## Page 5
 
 Terminology
 5
 
-## Página 6
+## Page 6
 
 6
 ◆ Current State
@@ -67,7 +67,7 @@ Terminology
 ◆ Continuous Deployment
 Terminology
 
-## Página 7
+## Page 7
 
 7
 Terminology- Part 1/3
@@ -97,7 +97,7 @@ Reconciliation ≠ “deployment”.
 Deployment is just one kind of 
 reconciliation action.
 
-## Página 8
+## Page 8
 
 8
 Declarative describe what you 
@@ -127,7 +127,7 @@ production without human
 intervention once all tests pass.
 Terminology - Part 2/3
 
-## Página 9
+## Page 9
 
 9
 Terminology - Part 3/3
@@ -154,7 +154,7 @@ is stored as plain, declarative
 data without execution logic 
 (code).
 
-## Página 10
+## Page 10
 
 10
 Terminology - Part 3/3
@@ -183,7 +183,7 @@ data without execution logic
 GitOps prefers Data in Git 
 and Code in controllers!
 
-## Página 11
+## Page 11
 
 11
 Terminology - Example 3/3 (I)
@@ -198,7 +198,7 @@ as Data (CaD)
 templates/ci.yaml
 values.yaml
 
-## Página 12
+## Page 12
 
 12
 Terminology - Example 3/3 (II)
@@ -213,7 +213,7 @@ as Data (CaD)
 templates/ci.yaml
 values.yaml
 
-## Página 13
+## Page 13
 
 13
 Terminology - Example 3/3 (III)
@@ -235,13 +235,13 @@ CaD (a semantic specialization).
 ● IaD = platform scope
 ● CaD = workload scope
 
-## Página 14
+## Page 14
 
 The Four Principals 
 (What is GitOps)
 14
 
-## Página 15
+## Page 15
 
 Remember this.
 Declarative Versioned and 
@@ -254,7 +254,7 @@ Reconciled
 The Four Principles (What is GitOps)
 Feedback Loop
 
-## Página 16
+## Page 16
 
 What is GitOps Not
 ClickOps or ad-hoc kubectl changes
@@ -270,22 +270,22 @@ A replacement for Platform Engineering!
 16
 GitOps is not
 
-## Página 17
+## Page 17
 
 17
 CI/CD vs GitOps CD (I)
 
-## Página 18
+## Page 18
 
 18
 CI/CD vs GitOps CD (II)
 
-## Página 19
+## Page 19
 
 Context: How GitOps Fits In
 19
 
-## Página 20
+## Page 20
 
 Context: How GitOps Fits In
 20
@@ -298,21 +298,21 @@ advanced implementation of DevOps principles
 ◆ DevSecOps
 ◆ Platform Engineering
 
-## Página 21
+## Page 21
 
 21
 And by the way: DevOps is dead!
 
-## Página 22
+## Page 22
 
 DevOps Platform 
 Engineering
 
-## Página 23
+## Page 23
 
-*(sem texto extraível nesta página)*
+*(no extractable text on this page)*
 
-## Página 24
+## Page 24
 
 24
 Recap: GitOps Fundamentals and Core 

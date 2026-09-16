@@ -10,7 +10,7 @@
 ## Slide 2
 **Why outdated architectures kill velocity and increase risk.**
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Most teams think their bottlenecks are in CI/CD or infra — but it’s actually access.
 > 
 > Legacy access models weren’t designed for cloud-native, distributed systems.
@@ -25,7 +25,7 @@
 - The flow state breaks the moment an engineer hits a "permission denied" error.
 - Teams overwhelming build fast, but are forced to wait to deploy.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > We’ve optimized everything in the pipeline — except the moment access is required.
 > 
 > That “permission denied” moment is where modern systems fall back to legacy processes.
@@ -41,7 +41,7 @@
 - Once inside the perimeter, lateral movement is extremely easy. Massively increasing the negative impact of a increasingly common breaches.
 - Perimeter-based security is outdated! Broad VPN access increases risk and limits scale, while Identity-based access enforces least privilege, reduces lateral movement, and fits modern distributed systems far more effectively.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > The idea of a trusted internal network no longer holds in distributed systems.
 > 
 > VPNs solve connectivity, not security — they expand access instead of narrowing it.
@@ -59,7 +59,7 @@
 - Platform teams must maintain multiple, disconnected control planes.
 - This fragmentation guarantees inconsistent security policies.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Every system reinvented access control — and now we have to manage all of them.
 > 
 > This fragmentation isn’t just annoying — it guarantees inconsistency.
@@ -74,7 +74,7 @@
 - If a developer is compromised, everything they have access to is compromised.
 - You need just-in-time access, not just-in-case access.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > The real danger isn’t access — it’s persistent access.
 > 
 > Long-lived credentials silently accumulate risk over time.
@@ -86,7 +86,7 @@
 
 - When official processes are too slow, teams create backdoors. Shared service accounts and locally stored keys proliferate and shadow access completely bypasses zero-trust governance.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > When systems slow people down, people route around them — always.
 > 
 > Shadow access isn’t malicious, it’s a response to bad UX.
@@ -107,7 +107,7 @@
 - The financial (and reputation) impact of an easily preventable breach is massive, and growing more massive every year.
 - 01
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > The biggest cost isn’t tools — it’s wasted engineering time.
 > 
 > Highly paid engineers end up waiting or doing manual access work.
@@ -117,7 +117,7 @@
 ## Slide 9
 **How it should be**
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > As our systems grow, so does the complexity of keeping them observable.
 > Manual instrumentation — where every developer has to add their own telemetry code — simply doesn’t scale. Not only is it labor-intensive, but when every team defines telemetry differently, you end up with blind spots, noisy data, and duplication.
 > This is why observability has to be treated as a platform capability, not an afterthought. We need automation to reduce toil, standards to ensure consistency, and sensible defaults so teams get a working baseline without any extra setup. This approach is what allows observability to grow with your platform — not become a bottleneck.
@@ -139,7 +139,7 @@
 - No static secrets to rotate or commit to GitHub.
 - Stolen expired certificates are useless.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > The goal is not to remove access, but to make it temporary and contextual.
 > 
 > Access should exist only when needed — and disappear automatically.
@@ -155,7 +155,7 @@
 - AI makes this even more important! You in this context can be humans, or machines.
 - Identity cannot be easily exfiltrated like a password could, modern access is tied to SSO and cryptographic verification.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Secrets are transferable — identity is not.
 > 
 > This is the fundamental shift: from possession-based to identity-based access.
@@ -171,7 +171,7 @@
 - The Fix: Machine workloads require dynamic, verifiable cryptographic identities.
 - “Machine identities (services, containers, automation) now outnumber human identities by up to 100:1 in modern enterprises.” (Gartner estimate on machine identity growth)
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Most access today is not human — it’s workloads talking to each other.
 > 
 > But we still treat machine identity as an afterthought.
@@ -186,7 +186,7 @@
 - The result is a platform that is secure by design, with consistent access control for both humans and non-human identities.
 - Infrastructure Identity is not just a security upgrade, but a technical and cultural upgrade as well.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > This is where platform engineering becomes critical.
 > 
 > Identity isn’t a tool — it’s something you embed into the platform itself.
@@ -200,7 +200,7 @@
 - Identity-based access replaces fragmented control planes with unified, policy-driven authentication, eliminating ticket queues and access drift
 - Treating humans and machines as first-class identities enables automated, self-service access — accelerating incident response and restoring developer flow
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > Auto-instrumentation is one of the fastest ways to achieve coverage across your services without asking developers to modify their code. With OpenTelemetry, you can deploy language-specific agents — for example, Java, Python, Node.js — that automatically capture telemetry from frameworks, libraries, and runtimes.
 > In Kubernetes, the OpenTelemetry Operator takes this further by allowing us to inject these agents automatically via annotations. That means platform engineers can turn on observability for an entire workload fleet just by updating deployment manifests — no code changes required.
 > This approach is perfect for quickly onboarding teams to a consistent telemetry setup, ensuring data starts flowing early, and then layering in manual instrumentation later for more business context.
@@ -221,7 +221,7 @@
 - How much time has been saved?
 - 01
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > This gives you a way to justify platform investments in business terms.
 > 
 > Time saved translates directly into money saved.
@@ -236,7 +236,7 @@
 - Build infrastructure identity directly into the platform, making secure, just-in-time access the default, not the exception.
 - Measure what matters. Reduce MTTA, restore developer flow, and prove platform ROI through saved time and reduced risk.
 
-> **Notas do apresentador:**
+> **Presenter notes:**
 > To wrap up this module: common vulnerabilities and exposures cost organizations millions in direct impact and in engineering time. 
 > The naive approach, which is endless manual remediation, doesn’t scale and it burns out some of your most experienced engineers.
 > What we want instead is to shift vulnerability management down into the platform and build systems that are secure by design.

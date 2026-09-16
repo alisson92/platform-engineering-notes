@@ -1,0 +1,16 @@
+# Certificados pessoais (contêm nome completo) - não versionar em repo de referência pública
+courses/cloud-development-environments-for-platform-engineers/Alisson-Lima-Certificate.pdf
+courses/devops-modernization-for-platform-engineers/Alisson-Lima-Certificate.pdf
+courses/infrastructure-identity-for-platform-engineers/Alisson-Lima-9dee.pdf
+courses/kubernetes-cluster-lifecycle-management-in-platform-engineering/Alisson-Lima-Certificate.pdf
+courses/observability-for-platform-engineering/Alisson-Lima-Certificate.pdf
+courses/vulnerability-management-for-platform-engineers/AlissonLima-Certificate.pdf
+
+# Mídia bruta (vídeo) - fora do escopo de documentação em markdown
+*.mp4
+
+# Metadados de download do Windows/WSL (NTFS Alternate Data Stream)
+*:Zone.Identifier
+
+# Diversos
+.DS_Store

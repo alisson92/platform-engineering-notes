@@ -111,7 +111,7 @@ Codify security exceptions
 
 ### AI as pair programmer
 
-# Generate custom policies
+#### Generate custom policies
 
 Establish style guide
 Can use spec-driven development

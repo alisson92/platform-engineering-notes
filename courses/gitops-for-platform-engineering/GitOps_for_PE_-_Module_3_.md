@@ -2,6 +2,8 @@
 
 ## Page 1
 
+![Page 1](images/module-3/page-1.png)
+
 GitOps Architecture, Patterns 
 and Anti-Patterns
  
@@ -10,10 +12,14 @@ MODULE 03
 
 ## Page 2
 
+![Page 2](images/module-3/page-2.png)
+
 GitOps Architecture
 2
 
 ## Page 3
+
+![Page 3](images/module-3/page-3.png)
 
 Remember this.
 Declarative Versioned and 
@@ -28,16 +34,22 @@ Feedback Loop
 
 ## Page 4
 
+![Page 4](images/module-3/page-4.png)
+
 Internal vs External Reconciler
 4
 Workload Clusters
 
 ## Page 5
 
+![Page 5](images/module-3/page-5.png)
+
 Internal vs External Reconciler
 5
 
 ## Page 6
+
+![Page 6](images/module-3/page-6.png)
 
 Declarative
 6
@@ -53,6 +65,8 @@ Declarative is giving the driver an address and letting
 them ﬁnd the best route
 
 ## Page 7
+
+![Page 7](images/module-3/page-7.png)
 
 7
 Versioned and Immutable
@@ -70,6 +84,8 @@ Tags are for humans (versioned); Hashes are for machines (immutable); Never use
 'latest' in production.
 
 ## Page 8
+
+![Page 8](images/module-3/page-8.png)
 
 8
 In a Pull-based system, an agent inside the cluster 
@@ -96,6 +112,8 @@ Pull-Based
 
 ## Page 9
 
+![Page 9](images/module-3/page-9.png)
+
 9
 Continuously Reconciled means the system 
 constantly compares the observed state of the 
@@ -115,14 +133,20 @@ re-applying the Git state.
 
 ## Page 10
 
+![Page 10](images/module-3/page-10.png)
+
 *(no extractable text on this page)*
 
 ## Page 11
+
+![Page 11](images/module-3/page-11.png)
 
 Progressive Delivery
 11
 
 ## Page 12
+
+![Page 12](images/module-3/page-12.png)
 
 Rolling Update 
 Progressive Delivery
@@ -167,6 +191,8 @@ possible, Progressive Delivery focuses on how that code is exposed to users to m
 
 ## Page 13
 
+![Page 13](images/module-3/page-13.png)
+
 Rolling Update 
 Progressive Delivery
 Is the umbrella term. It’s the overarching philosophy or discipline of modern software releases.
@@ -210,11 +236,15 @@ possible, Progressive Delivery focuses on how that code is exposed to users to m
 
 ## Page 14
 
+![Page 14](images/module-3/page-14.png)
+
 Trunk-Based vs 
 Branch-Based Development
 14
 
 ## Page 15
+
+![Page 15](images/module-3/page-15.png)
 
 Trunk-Based vs Branch-Based Development
 15
@@ -248,6 +278,8 @@ a "fail forward" mentality.
 
 ## Page 16
 
+![Page 16](images/module-3/page-16.png)
+
 Promotions between Stages: Trunk-Based
 16
 ◆ No Branch Merges: We don't merge staging into production. 
@@ -262,6 +294,8 @@ In Trunk-Based GitOps, we promote 'Artifact
 Versions,' not 'Git Branches.
 
 ## Page 17
+
+![Page 17](images/module-3/page-17.png)
 
 Promotions between Stages: Branch-Based
 17
@@ -278,6 +312,8 @@ anti-pattern and is not recommended for
 production-scale environments.
 
 ## Page 18
+
+![Page 18](images/module-3/page-18.png)
 
 Before Kargo: You write a custom bash 
 script in GitHub Actions to sed  an image 
@@ -301,6 +337,8 @@ Promotions between Stages: Kargo as Bridge
 
 ## Page 19
 
+![Page 19](images/module-3/page-19.png)
+
 The PR Generator is a feature of the Argo CD ApplicationSet controller.
 Normally, Argo CD needs a folder in Git to create an application. The PR Generator 
 changes this: It treats an open Pull Request as a trigger to create a temporary Argo 
@@ -320,20 +358,28 @@ Argo CD: Pull-Request Generator (I)
 
 ## Page 20
 
+![Page 20](images/module-3/page-20.png)
+
 20
 Argo CD: Pull-Request Generator (II)
 
 ## Page 21
+
+![Page 21](images/module-3/page-21.png)
 
 21
 Argo CD: Pull-Request Generator (III)
 
 ## Page 22
 
+![Page 22](images/module-3/page-22.png)
+
 Repository Strategies
 22
 
 ## Page 23
+
+![Page 23](images/module-3/page-23.png)
 
 Repository Strategies: Mono vs Multi Repo(s)
 23
@@ -363,6 +409,8 @@ and security boundaries.
 
 ## Page 24
 
+![Page 24](images/module-3/page-24.png)
+
 Folder per Environment (I)
 24
 The Core Philosophy
@@ -388,6 +436,8 @@ identical in conﬁguration.
 
 ## Page 25
 
+![Page 25](images/module-3/page-25.png)
+
 Folder per Environment (II)
 25
 The Specialized Hardware/Feature Pattern
@@ -406,6 +456,8 @@ database endpoints) to all folders under the /eu tree.
 
 ## Page 26
 
+![Page 26](images/module-3/page-26.png)
+
 Folder per Environment (III)
 26
 Pattern Complexity Best Use Case
@@ -414,6 +466,8 @@ Stage + Region Medium SaaS companies with global users.
 Stage + Variant High Specialized tech (Edge computing, AI, Finance).
 
 ## Page 27
+
+![Page 27](images/module-3/page-27.png)
 
 Folder per Environment (IV)
 27
@@ -426,10 +480,14 @@ Global Scaling Regional Matrix envs/prod-eu, envs/prod-us
 
 ## Page 28
 
+![Page 28](images/module-3/page-28.png)
+
 State Store
 28
 
 ## Page 29
+
+![Page 29](images/module-3/page-29.png)
 
 State Store: Git, OCI or  
 ConﬁgHub (I)
@@ -448,6 +506,8 @@ because it treats YAML exactly like code—versioned, packaged, and
 signed
 
 ## Page 30
+
+![Page 30](images/module-3/page-30.png)
 
 30
 Git
@@ -494,6 +554,8 @@ validatable.
 
 ## Page 31
 
+![Page 31](images/module-3/page-31.png)
+
 31
 Recap: GitOps Architecture, Patterns…
 ❏ GitOps Architecture: 4 principles + internal vs. external reconcilers 
@@ -509,6 +571,8 @@ But if you want to get the most out of it, you also need to understand the
 other building block!
 
 ## Page 32
+
+![Page 32](images/module-3/page-32.png)
 
 Demo
 32

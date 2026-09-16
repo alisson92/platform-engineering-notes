@@ -2,12 +2,16 @@
 
 ## Page 1
 
+![Page 1](images/module-6/page-1.png)
+
 Outlook, Trends and AI!
  
 GITOPS FOR PLATFORM ENGINEERING
 MODULE 06
 
 ## Page 2
+
+![Page 2](images/module-6/page-2.png)
 
 Outlook, Trends and Interview with the 
 GitOps founder Alexis Richardson
@@ -17,10 +21,14 @@ MODULE 06
 
 ## Page 3
 
+![Page 3](images/module-6/page-3.png)
+
 Sprawl of Conﬁgs 
 3
 
 ## Page 4
+
+![Page 4](images/module-6/page-4.png)
 
 Sprawl of Conﬁgs
 4
@@ -35,6 +43,8 @@ only appears inside the GitOps engine.
 
 ## Page 5
 
+![Page 5](images/module-6/page-5.png)
+
 Sprawl of Conﬁgs (II)
 The GitOps engine executes code.
 When it fails, the error often points somewhere — but not 
@@ -48,6 +58,8 @@ rendered YAML.
 5
 
 ## Page 6
+
+![Page 6](images/module-6/page-6.png)
 
 6
 Git as State Store is not the Source of Truth!
@@ -66,12 +78,16 @@ GitOps!
 
 ## Page 7
 
+![Page 7](images/module-6/page-7.png)
+
 The Future of GitOps in 
 combination with AI and Platform 
 Engineering
 7
 
 ## Page 8
+
+![Page 8](images/module-6/page-8.png)
 
 8
 AI and GitOps
@@ -94,6 +110,8 @@ tokens
 
 ## Page 9
 
+![Page 9](images/module-6/page-9.png)
+
 9
 AI and GitOps (II)
 You can run this “brain as API” close to your 
@@ -111,6 +129,8 @@ User: “Why WHITE application?”
 AI Answer: “Because not BLUE.”
 
 ## Page 10
+
+![Page 10](images/module-6/page-10.png)
 
 10
 Recap: GitOps for Platform Engineering
@@ -131,6 +151,8 @@ Gitless GitOps -> YouTube -> Stefan Prodan (FluxCon)!! 🔥
 
 ## Page 11
 
+![Page 11](images/module-6/page-11.png)
+
 11
 Recap: GitOps for Platform Engineering
 ❏ We then toured the tooling landscape with a GitOps Tooling 101: Argo CD, Flux CD, and 
@@ -149,9 +171,13 @@ LinkedIn!!
 
 ## Page 12
 
+![Page 12](images/module-6/page-12.png)
+
 12
 
 ## Page 13
+
+![Page 13](images/module-6/page-13.png)
 
 The Interview
 13

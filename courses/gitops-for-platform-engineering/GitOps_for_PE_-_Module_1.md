@@ -2,11 +2,15 @@
 
 ## Page 1
 
+![Page 1](images/module-1/page-1.png)
+
 Introduction and Motivation 
 GITOPS FOR PLATFORM ENGINEERING
 MODULE 01
 
 ## Page 2
+
+![Page 2](images/module-1/page-2.png)
 
 Artem Lajko
 ● Head of Platform Engineering at iits
@@ -17,6 +21,8 @@ Artem Lajko
 Book: Implementing GitOps with Kubernetes
 
 ## Page 3
+
+![Page 3](images/module-1/page-3.png)
 
 3
 What is this course about?
@@ -36,10 +42,14 @@ Introduction and Motivation
 
 ## Page 4
 
+![Page 4](images/module-1/page-4.png)
+
 Why GitOps
 4
 
 ## Page 5
+
+![Page 5](images/module-1/page-5.png)
 
 Why GitOps?
 1000 Reasons + 1 
@@ -54,6 +64,8 @@ GitOps is a contract between Agents and Humans!
 
 ## Page 6
 
+![Page 6](images/module-1/page-6.png)
+
 6
 Why GitOps? Let’s look at the numbers (I)
 https://octopus.com/publications/state-of-gitops-report
@@ -61,10 +73,14 @@ https://platformengineering.org/reports/state-of-platform-engineering-vol-3
 
 ## Page 7
 
+![Page 7](images/module-1/page-7.png)
+
 7iits-consulting: Migration from VMS and Rancher (RKE) to GitOps with Argo CD (KumoOps Stack)
 Why GitOps? Let’s look at the numbers (II)
 
 ## Page 8
+
+![Page 8](images/module-1/page-8.png)
 
 The Wild West Era - Before 
 DevOps and GitOps 
@@ -72,17 +88,23 @@ DevOps and GitOps
 
 ## Page 9
 
+![Page 9](images/module-1/page-9.png)
+
 The Wild West Era — Before DevOps and 
 GitOps (I)
 9
 
 ## Page 10
 
+![Page 10](images/module-1/page-10.png)
+
 10
 The Wild West Era — Before DevOps and 
 GitOps (II)
 
 ## Page 11
+
+![Page 11](images/module-1/page-11.png)
 
 11
 2000s - 2010s
@@ -91,6 +113,8 @@ The Wild West Era — Before DevOps and
 GitOps (III)
 
 ## Page 12
+
+![Page 12](images/module-1/page-12.png)
 
 12
 2000s - 2010s
@@ -103,16 +127,22 @@ GitOps (IV)
 
 ## Page 13
 
+![Page 13](images/module-1/page-13.png)
+
 The Birth of Infrastructure as 
 Code
 13
 
 ## Page 14
 
+![Page 14](images/module-1/page-14.png)
+
 The Birth of Infrastructure as Code (IaC) - I
 14
 
 ## Page 15
+
+![Page 15](images/module-1/page-15.png)
 
 15
 Everything becomes declarative! 
@@ -120,11 +150,15 @@ The Birth of Infrastructure as Code (IaC) - II
 
 ## Page 16
 
+![Page 16](images/module-1/page-16.png)
+
 New Tooling…Similar Challenge… 
 Still Running on My Machine
 16
 
 ## Page 17
+
+![Page 17](images/module-1/page-17.png)
 
 Conﬁg and Ops Still Run on My Machine
 We now use “X as Code” (let’s call it conﬁg), 
@@ -141,6 +175,8 @@ Local Ops!
 
 ## Page 18
 
+![Page 18](images/module-1/page-18.png)
+
 Ops still running on my Machine!
 We have now split conﬁg and ops. Conﬁg lives 
 in a central Git repo, but operations still 
@@ -156,6 +192,8 @@ Distributed Ops!
 
 ## Page 19
 
+![Page 19](images/module-1/page-19.png)
+
 Pipeline Ops: Code still running on my Machine!
 We have now split conﬁg and ops. Conﬁg lives 
 in a central Git repo, and operations are 
@@ -170,6 +208,8 @@ the VM.
 Pipeline Ops!
 
 ## Page 20
+
+![Page 20](images/module-1/page-20.png)
 
 Pipeline Ops: Code still running on my Machine!
 We have now split conﬁg and ops. Conﬁg lives 
@@ -187,6 +227,8 @@ Drift…
 
 ## Page 21
 
+![Page 21](images/module-1/page-21.png)
+
 Agent Ops: Code still running on my Machine!
 We have now split conﬁg and ops. Conﬁg lives 
 in a central Git repo. An agent watches the 
@@ -202,6 +244,8 @@ contract!
 
 ## Page 22
 
+![Page 22](images/module-1/page-22.png)
+
 You Have a Contract with the Agent
 Agent: I fulﬁll the contract by continuously 
 reconciling the desired state in Git with the 
@@ -214,10 +258,14 @@ target environment in sync.
 
 ## Page 23
 
+![Page 23](images/module-1/page-23.png)
+
 Why Do We Want GitOps?
 23
 
 ## Page 24
+
+![Page 24](images/module-1/page-24.png)
 
 24
 Why Do We Want GitOps? 
@@ -231,6 +279,8 @@ language
 ❏ AI-ready: it can explain what happened, why, when, and how
 
 ## Page 25
+
+![Page 25](images/module-1/page-25.png)
 
 Recap and Learning Objectives
 - What is GitOps

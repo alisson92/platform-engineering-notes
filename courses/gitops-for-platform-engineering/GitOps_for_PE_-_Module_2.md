@@ -2,6 +2,8 @@
 
 ## Page 1
 
+![Page 1](images/module-2/page-1.png)
+
 GitOps Fundamentals and 
 Core Principles
  
@@ -10,10 +12,14 @@ MODULE 02
 
 ## Page 2
 
+![Page 2](images/module-2/page-2.png)
+
 History and Origin
 2
 
 ## Page 3
+
+![Page 3](images/module-2/page-3.png)
 
 History and Origin
 1. Desired state: deﬁned in cookbooks (recipes)
@@ -31,6 +37,8 @@ Chef, a conﬁguration management tool, was announced in 2009 (formerly Opscode)
 
 ## Page 4
 
+![Page 4](images/module-2/page-4.png)
+
 History and Origin - Today
 In 2017, GitOps was deﬁned based on 
 four principles
@@ -44,10 +52,14 @@ Today, he is the CEO of ConﬁgHub.
 
 ## Page 5
 
+![Page 5](images/module-2/page-5.png)
+
 Terminology
 5
 
 ## Page 6
+
+![Page 6](images/module-2/page-6.png)
 
 6
 ◆ Current State
@@ -68,6 +80,8 @@ Terminology
 Terminology
 
 ## Page 7
+
+![Page 7](images/module-2/page-7.png)
 
 7
 Terminology- Part 1/3
@@ -99,6 +113,8 @@ reconciliation action.
 
 ## Page 8
 
+![Page 8](images/module-2/page-8.png)
+
 8
 Declarative describe what you 
 want, not how to do it.
@@ -129,6 +145,8 @@ Terminology - Part 2/3
 
 ## Page 9
 
+![Page 9](images/module-2/page-9.png)
+
 9
 Terminology - Part 3/3
 Code means executable or 
@@ -155,6 +173,8 @@ data without execution logic
 (code).
 
 ## Page 10
+
+![Page 10](images/module-2/page-10.png)
 
 10
 Terminology - Part 3/3
@@ -185,6 +205,8 @@ and Code in controllers!
 
 ## Page 11
 
+![Page 11](images/module-2/page-11.png)
+
 11
 Terminology - Example 3/3 (I)
 - Infrastructure 
@@ -200,6 +222,8 @@ values.yaml
 
 ## Page 12
 
+![Page 12](images/module-2/page-12.png)
+
 12
 Terminology - Example 3/3 (II)
 - Infrastructure 
@@ -214,6 +238,8 @@ templates/ci.yaml
 values.yaml
 
 ## Page 13
+
+![Page 13](images/module-2/page-13.png)
 
 13
 Terminology - Example 3/3 (III)
@@ -237,11 +263,15 @@ CaD (a semantic specialization).
 
 ## Page 14
 
+![Page 14](images/module-2/page-14.png)
+
 The Four Principals 
 (What is GitOps)
 14
 
 ## Page 15
+
+![Page 15](images/module-2/page-15.png)
 
 Remember this.
 Declarative Versioned and 
@@ -255,6 +285,8 @@ The Four Principles (What is GitOps)
 Feedback Loop
 
 ## Page 16
+
+![Page 16](images/module-2/page-16.png)
 
 What is GitOps Not
 ClickOps or ad-hoc kubectl changes
@@ -272,20 +304,28 @@ GitOps is not
 
 ## Page 17
 
+![Page 17](images/module-2/page-17.png)
+
 17
 CI/CD vs GitOps CD (I)
 
 ## Page 18
+
+![Page 18](images/module-2/page-18.png)
 
 18
 CI/CD vs GitOps CD (II)
 
 ## Page 19
 
+![Page 19](images/module-2/page-19.png)
+
 Context: How GitOps Fits In
 19
 
 ## Page 20
+
+![Page 20](images/module-2/page-20.png)
 
 Context: How GitOps Fits In
 20
@@ -300,19 +340,27 @@ advanced implementation of DevOps principles
 
 ## Page 21
 
+![Page 21](images/module-2/page-21.png)
+
 21
 And by the way: DevOps is dead!
 
 ## Page 22
+
+![Page 22](images/module-2/page-22.png)
 
 DevOps Platform 
 Engineering
 
 ## Page 23
 
+![Page 23](images/module-2/page-23.png)
+
 *(no extractable text on this page)*
 
 ## Page 24
+
+![Page 24](images/module-2/page-24.png)
 
 24
 Recap: GitOps Fundamentals and Core 

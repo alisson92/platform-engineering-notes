@@ -2,6 +2,8 @@
 
 ## Page 1
 
+![Page 1](images/module-4/page-1.png)
+
 GitOps Tooling 101 - Argo CD, Flux CD 
 and Sveltos Addon Controller
  
@@ -10,10 +12,14 @@ MODULE 04
 
 ## Page 2
 
+![Page 2](images/module-4/page-2.png)
+
 Helm vs Kustomize
 2
 
 ## Page 3
+
+![Page 3](images/module-4/page-3.png)
 
 3
 Helm (Template-driven): Think of it as a Programming 
@@ -33,6 +39,8 @@ the replicas to 3 for prod.
 
 ## Page 4
 
+![Page 4](images/module-4/page-4.png)
+
 4
 Feature Helm (since 2015, v4, ⭐
 ~29,2k) Kustomize (since 2017, v5, ⭐
@@ -45,6 +53,8 @@ Best For Third-party apps (Postgres, Redis). Internal microservices.
 Helm vs Kustomize (II)
 
 ## Page 5
+
+![Page 5](images/module-4/page-5.png)
 
 5
 Helm Charts - The "Wrapper Chart" Pattern
@@ -63,6 +73,8 @@ which includes both the tool and its conﬁguration.
 
 ## Page 6
 
+![Page 6](images/module-4/page-6.png)
+
 6
 Helm Charts - The "Wrapper Chart" Pattern II
 Use Wrapper Charts to bridge the gap: 
@@ -72,6 +84,8 @@ templates to add the 'missing pieces'
 like ClusterIssuer or Namespace.
 
 ## Page 7
+
+![Page 7](images/module-4/page-7.png)
 
 7
 Helm Chart x Kustomize
@@ -89,11 +103,15 @@ via a JSON patch.
 
 ## Page 8
 
+![Page 8](images/module-4/page-8.png)
+
 Building a GitOps Service 
 Catalog with Helm
 8
 
 ## Page 9
+
+![Page 9](images/module-4/page-9.png)
 
 9
 Let's build a Service Catalog for your Platform
@@ -114,6 +132,8 @@ cluster ﬂeet and covering day-2 operations.
 
 ## Page 10
 
+![Page 10](images/module-4/page-10.png)
+
 10
 Let's build a Service Catalog for your Platform
 You can use services from the service catalog (1) 
@@ -132,11 +152,15 @@ But when that tool or its catalog backend becomes a bottleneck, the state store 
 
 ## Page 11
 
+![Page 11](images/module-4/page-11.png)
+
 Overview: Argo CD, Flux CD 
 and Sveltos Addon Controller
 11
 
 ## Page 12
+
+![Page 12](images/module-4/page-12.png)
 
 12
 Argo CD
@@ -182,6 +206,8 @@ and native multi-tenancy support.
 
 ## Page 13
 
+![Page 13](images/module-4/page-13.png)
+
 13
 Dashboard 
 Hub and Spoke 
@@ -204,6 +230,8 @@ Multi-Tenancy: centralized RBAC, SSO/OIDC, Projects
 Integration:  EKS Capability for Argo CD, 2025
 
 ## Page 14
+
+![Page 14](images/module-4/page-14.png)
 
 14
 Argo CD - Bootstrapping - YAML
@@ -235,6 +263,8 @@ of other apps.
 Basic Installation or Quick Start
 
 ## Page 15
+
+![Page 15](images/module-4/page-15.png)
 
 15
 Argo CD - Bootstrapping - Helm
@@ -269,6 +299,8 @@ Basic Installation or Quick Start
 
 ## Page 16
 
+![Page 16](images/module-4/page-16.png)
+
 16
 Dashboard 
 Dedicated Instance per Cluster 
@@ -291,6 +323,8 @@ Integration:  Azure AKS Extension, since 2022
 
 ## Page 17
 
+![Page 17](images/module-4/page-17.png)
+
 17
 Flux CD - Bootstrapping CLI
 flux bootstrap github \ 
@@ -310,6 +344,8 @@ the controllers to sync the cluster(s) state from a Git
 repository
 
 ## Page 18
+
+![Page 18](images/module-4/page-18.png)
 
 18
 Flux CD - Bootstrapping - Flux Operator
@@ -346,6 +382,8 @@ anifests"
 
 ## Page 19
 
+![Page 19](images/module-4/page-19.png)
+
 19
 Sveltos
 Year: 2022
@@ -366,6 +404,8 @@ Multi-Tenancy: delegated, RoleRequest, Tenants
 Integration: k0RDENT policy Driven Cluster Management
 
 ## Page 20
+
+![Page 20](images/module-4/page-20.png)
 
 20
 Sveltos - Bootstrapping YAML
@@ -389,6 +429,8 @@ Mode 1: Local Agent Mode
 
 ## Page 21
 
+![Page 21](images/module-4/page-21.png)
+
 21
 Sveltos - Bootstrapping Helm
 helm install projectsveltos  
@@ -404,6 +446,8 @@ Mode 1: Local Agent Mode Mode 2: Centralised Agent Mode
 
 ## Page 22
 
+![Page 22](images/module-4/page-22.png)
+
 22
 Sveltos - Bootstrapping: The Kubara Way
 1. Create an Umbrella Helm Chart and add it 
@@ -413,6 +457,8 @@ to the catalog
 and manage Sveltos
 
 ## Page 23
+
+![Page 23](images/module-4/page-23.png)
 
 23
 Feature Argo CD Flux CD Sveltos
@@ -444,6 +490,8 @@ General Info and Community Adoption
 
 ## Page 24
 
+![Page 24](images/module-4/page-24.png)
+
 24
 Technical Architecture & Modern Features
 Feature Argo CD Flux CD Sveltos
@@ -466,6 +514,8 @@ Del. Using Argo Rollouts Using Flagger –
 
 ## Page 25
 
+![Page 25](images/module-4/page-25.png)
+
 25
 If you need a Rich Ecosystem: Choose Argo CD (includes Workﬂows, Events, Rollouts, and Image Updater).
 If you need Progressive Delivery: Use Argo CD (with Rollouts) or Flux CD (with Flagger).
@@ -483,6 +533,8 @@ These are only rough indications. As always, it's a depends-on answer!
 
 ## Page 26
 
+![Page 26](images/module-4/page-26.png)
+
 26
 Who says you need…
 You can combine the best of different tools!
@@ -498,6 +550,8 @@ resources efﬁciently.
 
 ## Page 27
 
+![Page 27](images/module-4/page-27.png)
+
 27
 Recap: GitOps Tooling 101…
 ❏ Use Helm if you want to package your software as a reusable product 
@@ -509,6 +563,8 @@ it over a lot of repositories!
 no need to focus on one tool, you can combine strengths of the tools
 
 ## Page 28
+
+![Page 28](images/module-4/page-28.png)
 
 Demo
 28

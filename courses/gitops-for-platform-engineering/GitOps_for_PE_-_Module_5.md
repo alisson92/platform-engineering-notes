@@ -2,6 +2,8 @@
 
 ## Page 1
 
+![Page 1](images/module-5/page-1.png)
+
 GitOps in Enterprise - Scaling and 
 Security
  
@@ -10,11 +12,15 @@ MODULE 05
 
 ## Page 2
 
+![Page 2](images/module-5/page-2.png)
+
 Gitops at Scale - Reference 
 Architecture(s)
 2
 
 ## Page 3
+
+![Page 3](images/module-5/page-3.png)
 
 3
 One central instance manages deployments for many 
@@ -38,6 +44,8 @@ Hub & Spoke
 
 ## Page 4
 
+![Page 4](images/module-5/page-4.png)
+
 4
 Instance is co-located with the workloads it manages.
 Pros:
@@ -59,6 +67,8 @@ instances stay synchronized in their conﬁguration.
 Instance per Cluster
 
 ## Page 5
+
+![Page 5](images/module-5/page-5.png)
 
 5
 Hub & Spoke x 
@@ -82,6 +92,8 @@ instances) simultaneously.
 
 ## Page 6
 
+![Page 6](images/module-5/page-6.png)
+
 6
 The Management Cluster acts as the active driver, directly 
 "pushing" conﬁgurations to the target API servers.
@@ -103,6 +115,8 @@ based - Push
 
 ## Page 7
 
+![Page 7](images/module-5/page-7.png)
+
 7
 The Managed Cluster "pulls" its own desired state from the 
 management hub, allowing for operation behind ﬁrewalls.
@@ -123,9 +137,13 @@ based - Pull
 
 ## Page 8
 
+![Page 8](images/module-5/page-8.png)
+
 8
 
 ## Page 9
+
+![Page 9](images/module-5/page-9.png)
 
 9
 Logical Grouping 
@@ -149,6 +167,8 @@ consumption as core controllers (API, Repo-server)
 are duplicated for every logical group.
 
 ## Page 10
+
+![Page 10](images/module-5/page-10.png)
 
 10
 Sharding
@@ -174,6 +194,8 @@ or they will be ignored.
 
 ## Page 11
 
+![Page 11](images/module-5/page-11.png)
+
 11
 Sharding
 Sharding is a horizontal scaling strategy used to manage tens of 
@@ -198,11 +220,15 @@ or they will be ignored.
 
 ## Page 12
 
+![Page 12](images/module-5/page-12.png)
+
 GitOps and Security - Secrets 
 Management and Compliance
 12
 
 ## Page 13
+
+![Page 13](images/module-5/page-13.png)
 
 Compliance - Kyverno
 13
@@ -238,15 +264,21 @@ only what is allowed can run
 
 ## Page 14
 
+![Page 14](images/module-5/page-14.png)
+
 Guardrails that's Scales!
 14
 
 ## Page 15
 
+![Page 15](images/module-5/page-15.png)
+
 Guardrails that's Scales! (II)
 15
 
 ## Page 16
+
+![Page 16](images/module-5/page-16.png)
 
 16
 Sealed Secrets Operator 
@@ -282,30 +314,42 @@ authentication, IAM roles).
 
 ## Page 17
 
+![Page 17](images/module-5/page-17.png)
+
 External Secrets Operator (ESO) - Kubara
 17
 
 ## Page 18
+
+![Page 18](images/module-5/page-18.png)
 
 External Secrets Operator (ESO) - Kubara
 18
 
 ## Page 19
 
+![Page 19](images/module-5/page-19.png)
+
 External Secrets Operator (ESO) - Kubara
 19
 
 ## Page 20
+
+![Page 20](images/module-5/page-20.png)
 
 External Secrets Operator (ESO) - Kubara
 20
 
 ## Page 21
 
+![Page 21](images/module-5/page-21.png)
+
 Culture Shift
 21
 
 ## Page 22
+
+![Page 22](images/module-5/page-22.png)
 
 GitOps in - GitOps out
 22
@@ -336,6 +380,8 @@ never touching the cluster manually again
 
 ## Page 23
 
+![Page 23](images/module-5/page-23.png)
+
 Everything as Code
 Our vision: A uniﬁed environment where 
 Security and FinOps deﬁne policies or 
@@ -347,15 +393,21 @@ across clusters.
 
 ## Page 24
 
+![Page 24](images/module-5/page-24.png)
+
 Everything as Code (II)
 24
 
 ## Page 25
 
+![Page 25](images/module-5/page-25.png)
+
 Everything as Code (III)
 25
 
 ## Page 26
+
+![Page 26](images/module-5/page-26.png)
 
 Everything as Code (IV)
 26
@@ -367,6 +419,8 @@ was difﬁcult, it ultimately transformed infrastructure into a
 shared, engaging responsibility.
 
 ## Page 27
+
+![Page 27](images/module-5/page-27.png)
 
 27
 Recap: GitOps Architecture, Patterns…
@@ -383,6 +437,8 @@ matter how you build it, the focus must stay on providing a great self-service
 experience. Culture matter.
 
 ## Page 28
+
+![Page 28](images/module-5/page-28.png)
 
 Demo
 28

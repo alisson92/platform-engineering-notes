@@ -1,12 +1,9 @@
-# Personal completion certificates (contain full name) - do not version in a reference repo
-courses/cloud-development-environments-for-platform-engineers/Alisson-Lima-Certificate.pdf
-courses/devops-modernization-for-platform-engineers/Alisson-Lima-Certificate.pdf
-courses/infrastructure-identity-for-platform-engineers/Alisson-Lima-9dee.pdf
-courses/kubernetes-cluster-lifecycle-management-in-platform-engineering/Alisson-Lima-Certificate.pdf
-courses/observability-for-platform-engineering/Alisson-Lima-Certificate.pdf
-courses/vulnerability-management-for-platform-engineers/AlissonLima-Certificate.pdf
-
-# Raw media (video) - out of scope for a markdown documentation repo
+# Source material (certificates, slide decks, raw video) - only the converted
+# .md files are versioned; everything else is scratch input for convert-to-md.py
+courses/**/*.pdf
+courses/**/*.pptx
+courses/**/*.ppt
+courses/**/*.txt
 *.mp4
 
 # Windows/WSL download metadata (NTFS Alternate Data Stream)
@@ -14,3 +11,5 @@ courses/vulnerability-management-for-platform-engineers/AlissonLima-Certificate.
 
 # Misc
 .DS_Store
+__pycache__/
+*.pyc

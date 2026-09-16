@@ -19,9 +19,10 @@ courses/
 
 ## What is NOT versioned
 
-See [`.gitignore`](.gitignore):
+Only `.md` is versioned — it's the actual study content and the only thing worth keeping around. Everything else is scratch input for the conversion step and is excluded via [`.gitignore`](.gitignore), regardless of course:
 
-- **Completion certificates** (PDF) — contain a full name, kept locally only.
+- **Source decks/transcripts** (`.pdf`, `.pptx`, `.ppt`, `.txt`) — converted to `.md`, then irrelevant.
+- **Completion certificates** (PDF) — also contain a full name; never converted, kept locally only.
 - **Raw videos** (`.mp4`) — raw media, out of scope for a Markdown documentation repo.
 
 ## Content origin and use
@@ -30,4 +31,12 @@ The content here is derived from third-party courses (mostly from the [Platform 
 
 ## How it was converted
 
-The original files (`.txt`, `.pptx`, `.pdf`) were converted to Markdown with a Python script using the `pypdf` and `python-pptx` libraries, then removed after conversion. No need to reprocess anything — the `.md` files are now the source of truth.
+The original files (`.txt`, `.pptx`, `.pdf`) were converted to Markdown with `scripts/convert-to-md.py`, then removed after conversion. No need to reprocess anything — the `.md` files are now the source of truth.
+
+To reuse the script for a new course, install its dependencies first:
+
+```bash
+pip install -r scripts/requirements.txt
+```
+
+It runs in dry-run mode by default (prints what it would do); pass `--apply` to actually write the `.md` files and delete the converted sources.

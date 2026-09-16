@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""Convert txt/pptx/pdf files under courses/ to .md, skipping certificates."""
 import re
 import sys
 from pathlib import Path
@@ -7,23 +6,16 @@ from pathlib import Path
 from pptx import Presentation
 from pypdf import PdfReader
 
-ROOT = Path("/home/alisson/personal/projects/platform-engineering-notes/courses")
+ROOT = Path(__file__).resolve().parent.parent / "courses"
 
-CERTIFICATE_PDFS = {
-    "courses/cloud-development-environments-for-platform-engineers/Alisson-Lima-Certificate.pdf",
-    "courses/devops-modernization-for-platform-engineers/Alisson-Lima-Certificate.pdf",
-    "courses/infrastructure-identity-for-platform-engineers/Alisson-Lima-9dee.pdf",
-    "courses/kubernetes-cluster-lifecycle-management-in-platform-engineering/Alisson-Lima-Certificate.pdf",
-    "courses/observability-for-platform-engineering/Alisson-Lima-Certificate.pdf",
-    "courses/vulnerability-management-for-platform-engineers/AlissonLima-Certificate.pdf",
-}
+def is_certificate(path: Path) -> bool:
+    return "certificate" in path.stem.lower()
 
 
 def convert_txt(path: Path) -> str:
     lines = path.read_text(encoding="utf-8").splitlines()
     out = []
     i = 0
-    # banner: '####...' / '### Title ###' / '####...'
     if len(lines) >= 3 and lines[0].strip().startswith("####") and lines[2].strip().startswith("####"):
         title = lines[1].strip().strip("#").strip()
         out.append(f"# {title}")
@@ -107,7 +99,7 @@ def main():
         if not path.is_file():
             continue
         rel = str(path.relative_to(ROOT.parent))
-        if path.suffix.lower() == ".pdf" and rel in CERTIFICATE_PDFS:
+        if path.suffix.lower() == ".pdf" and is_certificate(path):
             skipped_certs.append(rel)
             continue
         if path.suffix.lower() == ".txt":

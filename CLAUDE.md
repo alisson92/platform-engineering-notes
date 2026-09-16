@@ -30,7 +30,7 @@ A personal collection of Platform Engineering/SRE course notes, converted to Mar
 
 ## Important rules
 
-- **Never commit completion certificates (PDF)** — they contain the author's full name. They're excluded via `.gitignore` on purpose; if a new certificate shows up, add its path to `.gitignore` instead of converting it.
+- **Only `.md` is versioned.** `.gitignore` blanket-excludes `courses/**/*.pdf`, `*.pptx`, `*.ppt`, and `*.txt` — source decks/transcripts and completion certificates alike — so no per-course exception needs to be added when a new course comes in; the pattern already covers it.
 - **Never commit videos (`.mp4`) or other raw media** — out of scope for a Markdown-only repository. Already covered by `*.mp4` in `.gitignore`.
 - The content is derived from third-party courses (mostly platformengineering.org) — it's personal study material, not an official redistribution. When adding new courses, keep that same spirit (summary/transcript for personal reference, not republishing protected material beyond personal use).
 - The repository is **private** on GitHub. Don't suggest making it public without flagging the copyright/PII considerations above.
@@ -39,8 +39,8 @@ A personal collection of Platform Engineering/SRE course notes, converted to Mar
 
 1. Create `courses/<course-slug>/`.
 2. If there's a source `.txt`/`.pptx`/`.pdf`, run `scripts/convert-to-md.py` (adjusting the input paths) or convert manually following the conventions above.
-3. Exclude any certificate or raw video from the commit (`.gitignore` already covers the common patterns; add one-off exceptions if needed).
-4. Check that the generated `.md` has a title (`#`) and a coherent heading hierarchy before committing.
+3. Source files and certificates are already covered by `.gitignore` by extension — no manual exclusion needed.
+4. Check that the generated `.md` has a title (`#`) and a coherent heading hierarchy before committing (`scripts/check_md_structure.py` enforces this in CI).
 
 ## Commit and PR workflow
 

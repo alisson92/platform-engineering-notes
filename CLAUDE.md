@@ -26,6 +26,10 @@ A personal collection of Platform Engineering/SRE course notes, converted to Mar
 
 - **Course transcript (txt → md):** `# Course Title` at the top; the original `### Module N: ...` heading becomes `## Module N: ...`; the original `## ...` heading becomes `### ...`. In short, when converting by hand, bump every heading up one level relative to the source file.
 - **Slides (pptx/pdf → md):** one `## Slide N` (or `## Page N` for PDF) per slide/page, with the slide's text as bullets and the presenter notes (when present) in a blockquote (`> **Presenter notes:**`).
+- **Slides that are diagrams (architecture, flows, box-and-arrow visuals):** PDF-derived (`## Page N`) files are especially prone to this — python-pdf-style extraction flattens box/arrow layouts into an unreadable word soup, unlike the pptx path which extracts per-shape bullets more reliably. For these, also render each page/slide as a PNG and embed it right under the page heading with `![Page N](images/page-N.png)`, above the extracted text. The text stays for searchability; the image carries the actual diagram.
+  - Single-deck course (one `.md` file): `courses/<course-slug>/images/page-N.png`.
+  - Multi-module course (one `.md` per module, e.g. `gitops-for-platform-engineering`): `courses/<course-slug>/images/module-N/page-M.png`, to avoid page-number collisions across modules.
+  - PNGs are not excluded by `.gitignore` (only the raw source `.pdf`/`.pptx`/`.txt` are), so they're versioned normally — no `.gitignore` change needed. Render with a small script (e.g. PyMuPDF `page.get_pixmap(dpi=120)`) rather than committing anything by hand. When adding a new course, check whether its slides are diagram-heavy (thin/title-only extracted text is the tell) before deciding text-only is enough.
 - Plain Markdown, no front matter — this repo is read directly through the GitHub UI, not a static site generator.
 
 ## Important rules
